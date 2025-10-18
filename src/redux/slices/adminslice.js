@@ -1,7 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit"
-import { adminApi } from "../Apis/adminapi"
-
-
+import { adminApi } from "../apis/adminapi"
 
 
 const adminslice = createSlice({

@@ -8,7 +8,7 @@ import {
     FaBars,
 } from "react-icons/fa";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { useLogoutAdminMutation } from "../redux/Apis/adminapi";
+import { useLogoutAdminMutation } from "../redux/apis/adminapi";
 import { toast } from "react-toastify";
 
 const AdminSidebar = ({ isOpen, setIsOpen }) => {

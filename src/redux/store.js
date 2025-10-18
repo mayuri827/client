@@ -1,6 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit"
 import adminslice from "./slices/adminslice"
-import { adminApi } from "./Apis/adminapi"
+import { adminApi } from "./apis/adminapi"
 import { contactapi } from "./apis/contactapi"
 
 

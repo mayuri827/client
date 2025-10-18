@@ -7,7 +7,7 @@ import { toast } from "react-toastify";
 
 import { useNavigate, Link } from "react-router-dom";
 import "react-toastify/dist/ReactToastify.css";
-import { useLoginAdminMutation } from "../redux/Apis/adminapi";
+import { useLoginAdminMutation } from "../redux/apis/adminapi";
 
 const Login = () => {
     const navigate = useNavigate();

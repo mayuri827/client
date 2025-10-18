@@ -2,7 +2,7 @@
 
 import React from "react";
 import { FaEdit, FaSignOutAlt } from "react-icons/fa";
-import { useGetAdminDataQuery, useLogoutAdminMutation } from "../redux/Apis/adminapi";
+import { useGetAdminDataQuery, useLogoutAdminMutation } from "../redux/apis/adminapi";
 import { useNavigate } from "react-router-dom";
 
 const AdminProfile = () => {
