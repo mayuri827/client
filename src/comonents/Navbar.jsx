@@ -95,10 +95,10 @@ const Navbar = () => {
                             <FiPhone className="text-[#7fc241] mr-2" size={20} />
                             <span>1 800 458 56 97</span>
                         </div>
-                        <button className="mt-3 bg-[#fccf15] hover:bg-[#ffdb4d] text-[#082431] font-bold rounded-full px-6 py-2 transition-all">
-                            Contact us
-                        </button>
                     </div>
+                    <Link to="/login" className="bg-[#fccf15] hover:bg-[#ffdb4d] text-[#082431] font-bold rounded-full px-6 py-2 transition-all">
+                        Login
+                    </Link>
                 </div>
             )}
         </header>
